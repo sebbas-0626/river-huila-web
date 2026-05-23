@@ -32,6 +32,7 @@ const moments = [
   <div>
     <!-- Split Image Hero Section -->
     <section class="relative h-[85vh] min-h-[600px] flex items-center overflow-hidden">
+      <div class="absolute inset-0 z-0 bg-gradient-to-r from-black/70 to-transparent">¿Qué descubrir en Rivera?</div>
       <div class="absolute inset-0 z-0 flex">
         <!-- Split imagery: Colonial vs Nature -->
         <div class="w-1/2 h-full relative overflow-hidden group">
@@ -160,5 +161,27 @@ const moments = [
         </div>
       </div>
     </section>
+  <!-- Sección Tradición -->
+<section class="py-12 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+  <div class="text-center mb-8">
+    <h1 class="font-display text-4xl md:text-5xl font-bold mb-4 text-primary">Tradición y Cultura</h1>
+
+    <ul class="space-y-2 text-start mx-auto">
+      <li><strong>Nombre:</strong>  Municipio verde del Rivera Huila</li>
+      <li><strong>Ubicación:</strong> Rivera, Huila, Colombia</li>
+      <li><strong>Gentilicio:</strong> Riverense</li>
+      <li><strong>Fundación:</strong> 3 de enero de 1888</li>
+      <li><strong>Extensión:</strong> 435 km²</li>
+      <li><strong>Altitud:</strong> 750 M.S.N.M</li>
+      <li><strong>Población:</strong> 26.742 habitantes</li>
+      <li><strong>Temperatura:</strong> 25 °C</li>
+      <li><strong>Distancia:</strong> 20 km desde Neiva</li>
+      <li><strong>Límites:</strong> Norte: Municipio de Neiva; Sur: Campoalegre; Oriente: Departamento del Meta y Algeciras; Occidente: Palermo.</li>
+    </ul>
   </div>
+  <p class="mb-4 font-bold">¡Descubre Rivera, Tierra de Promoción!</p>
+  <p class="mb-4">Ubicado en el corazón del Huila, Rivera es un destino que enamora, donde la naturaleza, la tranquilidad y la cultura se funden en perfecta armonía. Inspiración del poeta José Eustasio Rivera, este paraíso del termalismo, ecoturismo ideal para la práctica de actividades emocionantes como el aviturismo, ciclo montañismo y rapel, permitiéndote explorar su espectacular entorno desde nuevas perspectivas. y cultura invita a conectar con la naturaleza y disfrutar de cada rincón de su espectacular entorno. Déjate envolver por sus paisajes, cautivadores, el encanto de sus piscinas termales, un refugio natural para el bienestar. ¡Ven y vive la magia de Rivera! Rivera se viste de fiesta con el Festival Nacional Infantil del Sanjuanero Huilense, una celebración llena de color, música y tradición que resalta lo mejor de la cultura. Además, su exquisita gastronomía, que deleita el paladar con una deliciosa oferta de postres, vinos y platos tradicionales que reflejan la herencia culinaria del Huila. ¡Ven y vive la magia de Rivera, donde la naturaleza, la cultura y la aventura se unen para brindarte una experiencia inolvidable!</p>
+</section>
+
+</div>
 </template>
